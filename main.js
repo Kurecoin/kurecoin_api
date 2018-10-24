@@ -627,8 +627,8 @@ var sendToken = function (userWalletAddress, krcAmount, callback) {
     }
 };
 // sendToken('0x1ac093cfeb4674f7f8a2cce33069f05df47f396f', 2)
-const certKey = fs.readFileSync('/etc/letsencrypt/live/payment.kurepay.com/privkey.pem');
-const certificate = fs.readFileSync('/etc/letsencrypt/live/payment.kurepay.com/fullchain.pem');
+const certKey = fs.readFileSync('/etc/letsencrypt/live/smart.kurepay.com/privkey.pem');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/smart.kurepay.com/fullchain.pem');
 // const privateKey = fs.readFileSync(path.join(__dirname, 'sslcert/local_server.key'), 'utf8');
 // const certificate = fs.readFileSync(path.join(__dirname, 'sslcert/local_server.cert'), 'utf8');
 
